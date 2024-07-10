@@ -60,3 +60,11 @@ ul, .right, .left {
   display: flex;
   gap: 16px;
 }
+
+.logo {
+  margin-left: 8px;
+}
+
+.profile-image {
+  margin-right: 8px;
+}
