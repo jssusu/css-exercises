@@ -15,7 +15,6 @@ ul {
 }
 
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
   font-size: 32px;
@@ -30,6 +29,11 @@ ul {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-block-size: 1em;
+  padding: 16px;
 }
 
 .sidebar {
