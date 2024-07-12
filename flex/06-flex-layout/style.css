@@ -30,6 +30,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 0.5em;
 }
 
 input {
@@ -49,4 +50,17 @@ input {
 
 .left-links, .right-links {
   margin: 0.25em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.content.buttons {
+  
 }
