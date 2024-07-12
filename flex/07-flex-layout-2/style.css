@@ -37,6 +37,12 @@ ul {
   padding: 16px;
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
 .sidebar {
   display: flex;
   flex: none;
@@ -50,14 +56,18 @@ ul {
   color: #ffffff;
 }
 
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px;
+  gap: 48px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-}
-
-.content {
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  flex-flow: row wrap;
+  max-width: 340px;
 }
