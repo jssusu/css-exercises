@@ -40,6 +40,19 @@ body {
   flex: none;
 }
 
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
